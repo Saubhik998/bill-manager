@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # **Bill Manager Application**
 
 ### 🌟 **Overview**
@@ -123,8 +121,6 @@ The **Bill Manager Application** is a dynamic web tool designed to simplify expe
 - **Data Persistence**: Integrate with a backend for storing bills.
 - **Dark Mode**: Add theme toggling for better usability.
 - **Mobile Optimization**: Further improve the user experience on smaller screens.
-
----
 
 ## 📜 **License**
 
