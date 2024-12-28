@@ -122,8 +122,4 @@ The **Bill Manager Application** is a dynamic web tool designed to simplify expe
 - **Dark Mode**: Add theme toggling for better usability.
 - **Mobile Optimization**: Further improve the user experience on smaller screens.
 
-## 📜 **License**
 
-This project is licensed under the [MIT License](LICENSE).
-
->>>>>>> 7bf1458 (Initial commit - Bill Manager Application)
