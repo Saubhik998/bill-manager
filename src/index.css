@@ -1,0 +1,119 @@
+/* General Body Styling */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styling */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.btn-sm {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+/* Chart Tooltip Styling */
+.recharts-tooltip-wrapper {
+  z-index: 1000;
+}
+
+.line-chart-tooltip {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.line-chart-tooltip h5 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.line-chart-tooltip p {
+  margin: 5px 0 0;
+}
+
+.line-chart-tooltip ul {
+  list-style-type: disc;
+  margin: 5px 0 0;
+  padding-left: 20px;
+}
+
+.line-chart-tooltip li {
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 15px;
+  }
+  .btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-header {
+    text-align: center;
+  }
+  .navbar {
+    font-size: 14px;
+  }
+}
